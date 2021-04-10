@@ -45,6 +45,7 @@ public class Day2 {
 
         // split() 특정 문자로 구분해서 배열로 저장하는것
         String[] s = input.split(" ");
+
         for(String x : s){
             int len =  x.length(); //각각의 단어길이가 len에 저장된다.
             if(len > m){  // 최대값 구하는 알고리즘
