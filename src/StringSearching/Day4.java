@@ -32,7 +32,7 @@ N개의 단어를 입력된 순서대로 한 줄에 하나씩 뒤집어서 출�
             int start = 0,  done = x.length()-1; // 단어의 처음과 끝 자리 index
 
             while (start < done) { // 시작 index와 끝 index의 위치를 바꿔준다.
-                                   // 시작 index가 끝 index보다 커질 떄 까지
+                                   // 시작 index가 끝 index보다 커질 떄 까지zx
                 char temp = a[start];
                 a[start] = a[done];
                 a[done] = temp;
