@@ -12,7 +12,7 @@ public class Day8 {
         System.out.println("s = " + s);  // 대문자만 출력되는걸 확인할 수 있다.
 
         String temp= new StringBuilder(s).reverse().toString();
-        // temp = s의 문자열을 뒤집은 것을 String화 한다.
+        // temp = s의 문자열을 뒤집은 것을 String화 한다.xxx
 
         if(s.equals(temp)) answer = "yes";
         // 만약 입력받은 문자열과 temp(뒤집어진 문자열)이 같으면 "yes"
